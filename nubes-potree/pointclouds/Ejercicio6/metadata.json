@@ -1,0 +1,113 @@
+{
+	"version": "2.0",
+	"name": "nubes-LAS",
+	"description": "",
+	"points": 1306948,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 5808, 
+		"stepSize": 4, 
+		"depth": 5
+	},
+	"offset": [332000, 4814000, -36.5],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 15.624921875001746,
+	"boundingBox": {
+		"min": [332000, 4814000, -36.5], 
+		"max": [333999.99000000022, 4815999.9900000002, 1963.4900000002235]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [332000, 4814000, -36.5],
+			"max": [333999.98999999999, 4815999.0199999996, 130.34]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [10],
+			"max": [6477]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [5]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [5]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [12]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [-30],
+			"max": [28]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [15],
+			"max": [15]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [194],
+			"max": [196]
+		},{
+			"name": "gps-time",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [236427.544819],
+			"max": [237641.06178399999]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [4608, 4352, 6400],
+			"max": [65280, 65280, 65280]
+		}
+	]
+}

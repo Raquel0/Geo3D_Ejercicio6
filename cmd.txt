@@ -1,0 +1,72 @@
+C:\Users\Usuario>E:\PotreeConverter_2.1\PotreeConverter.exe E:\Ejercicio6\nubes-LAS -o E:\Ejercicio6\nubes-potree -p Ejercicio6 --projection "+proj=utm +zone=30 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+#threads: 12
+#paths: 1
+
+output attributes:
+name                              offset    size
+================================================
+position                               0      12
+intensity                             12       2
+return number                         14       1
+number of returns                     15       1
+classification                        16       1
+scan angle rank                       17       1
+user data                             18       1
+point source id                       19       2
+gps-time                              21       8
+rgb                                   29       6
+================================================
+                                              35
+================================================
+cubicAABB: {
+        "min": [332000.000000, 4814000.000000, -36.500000],
+        "max": [333999.990000, 4815999.990000, 1963.490000],
+        "size": [1999.990000, 1999.990000, 1999.990000]
+}
+#points: 1'306'948
+total file size: 7.7 MB
+target directory: 'E:\Ejercicio6\nubes-potree/pointclouds/Ejercicio6'
+maxPointsPerChunk: 65347
+
+=======================================
+=== COUNTING
+=======================================
+tStartTaskAssembly: 0.000104s
+countPointsInCells: 0.501938s
+finished counting in 1s
+=======================================
+createLUT: 0.025559s
+
+=======================================
+=== CREATING CHUNKS
+=======================================
+distributePoints0: 0.000283s
+distributePoints1: 0.000352s
+[41%, 1s], [DISTRIBUTING: 23%, duration: 0s, throughput: 1MPs][RAM: 0.1GB (highest 0.1GB), CPU: 10%]
+finished creating chunks in 1s
+=======================================
+
+=======================================
+=== INDEXING
+=======================================
+sampling: 0.465553s
+flushing: 0.478732s
+metadata & hierarchy: 0.484639s
+deleting temporary files
+
+=======================================
+=== STATS
+=======================================
+#points:               1'306'948
+#input files:          1
+sampling method:       poisson
+chunk method:          LASZIP
+input file size:       7.7MB
+duration:              2.281s
+throughput (MB/s)      3MB
+throughput (points/s)  0.6M
+output location:       E:\Ejercicio6\nubes-potree/pointclouds/Ejercicio6
+duration(chunking-count):       0.503
+duration(chunking-distribute):  0.687
+duration(chunking-total):       1.193
+duration(indexing):     0.486
